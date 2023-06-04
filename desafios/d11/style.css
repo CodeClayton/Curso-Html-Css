@@ -1,0 +1,35 @@
+
+@keyframes animacao {
+    0% {transform: translateY(0);
+    }
+
+    100% {transform: translateY(35px)}
+}
+
+
+body{
+    height: 100vh;
+    background-image: url(imagens/espaco.jpg);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+div{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    margin: auto;
+}
+
+div:hover{
+    rotate: 8000deg;
+    transition: 5s;
+}
+
+img {
+   
+    animation: animacao 2s alternate infinite;
+}

@@ -1,0 +1,17 @@
+body{
+    background-color:rgb(31, 30, 30);
+    margin: 0;
+}
+.a{
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+div{
+    display: flex;
+    justify-content: center 
+     
+}
